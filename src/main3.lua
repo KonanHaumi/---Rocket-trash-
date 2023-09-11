@@ -14,7 +14,7 @@ room {
 	nam = 'main';
 	disp = "Начало игры";
 	dsc = [[тут что-то про начало игры]];
-	way = {path {'Начать', "Полет"} };
+	way = {path {'Начать', "start10"} };
 }
 
 include "launchpad"
