@@ -10,6 +10,8 @@ game.act = 'Не работает.';
 game.use = 'Это не поможет.';
 game.inv = 'Зачем мне это?';
 
+
+
 room {
 	nam = 'main';
 	disp = "Начало игры";
@@ -17,10 +19,10 @@ room {
 	way = {path {'Начать', "start10"} };
 }
 
-include "launchpad"
-include "ship"
-include "flight"
-include "landing"
+--include "launchpad"
+--include "ship"
+--include "flight"
+--include "landing"
 include "flightProcess-10"
 
 
